@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar sidebarGo">
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="main">
+        <div class="hamburger">
+          <img
+            src="img/hamburger-menu-icon.png"
+            alt="hamlogo"
+            class="ham"
+            width="23px"
+          />
+          <img
+            src="img/icons8-cancel.gif"
+            alt="crosslogo"
+            class="cross"
+            width="23px"
+          />
+        </div>
+        <div class="contactform">
+          <h1>Contact me for work/general Enquiries</h1>
+          <form>
+            <div class="form-group">
+              <label for="clientname">Client Name</label>
+              <input
+                type="Name"
+                class="form-control"
+                id="clientname"
+                aria-describedby="emailHelp"
+                placeholder="Name"
+              />
+              <label for="clientemail">Client Email Id</label>
+              <input
+                type="email"
+                class="form-control"
+                id="clientemail"
+                aria-describedby="emailHelp"
+                placeholder="Enter email"
+              />
+              <small id="emailHelp" class="form-text text-muted">
+                We'll never share your email & phone with anyone else.</small
+              >
+            </div>
+            <div class="form-group">
+              <label for="clientphone">Phone Number</label>
+              <input
+                type="phone"
+                class="form-control"
+                id="clientphone"
+                placeholder="Phone No"
+              />
+            </div>
+            <div class="form-group">
+              <label for="Enquiry">Enquiry</label>
+              <input
+                type="text"
+                class="form-control"
+                id="enquiry"
+                placeholder="Enquiry"
+              />
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="isclient" />
+              <label class="form-check-label" for="isclient"
+                >I want you to work on a project with me</label
+              >
+            </div>
+            <button type="submit" class="btn btn-sm">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="JAVASCRIPT/script.js"></script>
+  </body>
+</html>
